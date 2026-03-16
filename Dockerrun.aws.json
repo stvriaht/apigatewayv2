@@ -1,0 +1,16 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "lks-dockerimage-aditya",
+    "Key": "config.json"
+  },
+  "Image": {
+    "Name": "865521377764.dkr.ecr.us-east-1.amazonaws.com/lks-ecr-adit:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 3000
+    }
+  ]
+}
